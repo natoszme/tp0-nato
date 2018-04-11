@@ -95,7 +95,7 @@ void  wait_hello(int socket) {
 		variable "hola". Entonces, vamos por partes:
 		5.1.  Reservemos memoria para un buffer para recibir el mensaje.
   */
-  char * buffer = malloc(tamanio_buffer);
+  char * buffer = calloc(tamanio_buffer, sizeof(char));
 
   /*
 		5.2.  Recibamos el mensaje en el buffer.
@@ -104,15 +104,11 @@ void  wait_hello(int socket) {
 		Nota: Palabra clave MSG_WAITALL.
   */
 
-  //printf("Vamos a probar recibir");
-  log_info(logger, "Vamos a probar recibir");
-
   recibir(socket, buffer, tamanio_buffer, "No se pudo recibir el mensaje de handshake. El servidor cerró la conexión?");
 
-  if(strcmp(hola, buffer) == 0){
-  	log_info(logger, "Handshake OK!");
-  }else{
+  log_info(logger, "Recibimos mensaje de handshake");
 
+  if(strcmp(hola, buffer) != 0){
 	//esta bien liberar aca? estoy repitiendo el free...
   	//una funcion que reciba n parametros con su funcion de liberar, y los libere?
 
@@ -121,7 +117,7 @@ void  wait_hello(int socket) {
   	loggearErrorYSalir("Falló el handshake!!!");
   }
 
-  log_info(logger, "Recibimos");
+  log_info(logger, "Handshake OK!");
 
   free(buffer);
 }
@@ -281,13 +277,16 @@ void * wait_content(int socket) {
   void* content = malloc(header->len);
   //ojo que aca tampoco se liberan las cosas, si rompe recibir
   recibir(socket, content, header->len, "No se pudo recibir el contenido en wait_content()");
-
+  //para que los md5 coincidan!
+  //content[(header->len) - 1] = '\0';
   /*
 	  15.   Finalmente, no te olvides de liberar la memoria que pedimos
 			para el header y retornar el contenido recibido.
   */
 
   free(header);
+
+  log_info(logger, "Se recibio el mensaje de tamanio variable");
 
   return content;
 }
@@ -305,8 +304,6 @@ void send_md5(int socket, void * content) {
   MD5_Update(&context, content, strlen(content) + 1);
   MD5_Final(digest, &context);
 
-  //lo de la logica de 1 send - n recv no se uso antes...
-
   /*
 	17.   Luego, nos toca enviar a nosotros un contenido variable.
 		  A diferencia de recibirlo, para mandarlo es mejor enviarlo todo de una,
@@ -317,15 +314,17 @@ void send_md5(int socket, void * content) {
   //      17.1. Creamos un ContentHeader para guardar un mensaje de id 33 y el tamaño del md5
 
   //esta ok el tamanio del md5?
-  ContentHeader header = { .id = 33, .len = sizeof(MD5_Final) };
+  ContentHeader header = { .id = 33, .len =  MD5_DIGEST_LENGTH };
 
   /*
 		  17.2. Creamos un buffer del tamaño del mensaje completo y copiamos el header y la info de "digest" allí.
 		  Recuerden revisar la función memcpy(ptr_destino, ptr_origen, tamaño)!
   */
 
-  //chequear el tamanio alocado
-  void* buffer = malloc(sizeof(MD5_Final));
+  int message_size = sizeof(ContentHeader) + MD5_DIGEST_LENGTH;
+  void * buffer = malloc(message_size);
+  memcpy(buffer, &header, sizeof(ContentHeader));
+  memcpy(buffer + sizeof(ContentHeader), digest, MD5_DIGEST_LENGTH);
 
   //esta validacion no es necesaria, pero la dejo por la pregunta que surge
   if(!buffer){
@@ -335,15 +334,12 @@ void send_md5(int socket, void * content) {
   	loggearErrorYSalir("No se pudo alocar el buffer para el md5 a enviar en send_md5");
   }
 
-  memcpy(buffer, digest, sizeof(MD5_DIGEST_LENGTH)); 
-
   /*
 	18.   Con todo listo, solo nos falta enviar el paquete que armamos y liberar la memoria que usamos.
 		  Si, TODA la que usamos, eso incluye a la del contenido del mensaje que recibimos en la función
 		  anterior y el digest del MD5. Obviamente, validando tambien los errores.
   */
 
-  //se envia usando openssl? asumo usando send
   int resultado = send(socket, buffer, sizeof(MD5_Final), 0);
   //hay que preguntar por == -1, o con esto alcanza?
   if(resultado < 0){
@@ -352,21 +348,42 @@ void send_md5(int socket, void * content) {
   	free(content);
   	free(digest);
 
+  	free(buffer);
+
   	//tengo que liberar el socket aca? de vuelta voy a repetir el close
   	close(socket);
   	loggearErrorYSalir("Problema con send() en send_md5");
   }
 
+  log_info(logger, "Se envio el MD5");
+
   free(content);
   free(digest);
+  free(buffer);
 }
 
 void wait_confirmation(int socket) {
-  int result = 1; // Dejemos creado un resultado por defecto
+  int result = 0; // Dejemos creado un resultado por defecto. Yo lo cambie de 1 a 0,
+  //ya que 1 es el valor correcto
   /*
 	19.   Ahora nos toca recibir la confirmacion del servidor.
 		  Si el resultado obvenido es distinto de 0, entonces hubo un error
   */
+
+  //recibir(socket, &result, sizeof(int), "No se pudo recibir la confirmacion del envio de MD5");
+
+
+  int result_recv = recv(socket, &result, sizeof(int), 0);
+
+  if(result_recv <= 0){
+	  close(socket);
+	  loggearErrorYSalir("No se pudo recibir la confirmacion del MD5");
+  }
+
+  if(result != 1){
+	  close(socket);
+	  loggearErrorYSalir("Los MD5 no coincidieron");
+  }
 
   log_info(logger, "Los MD5 concidieron!");
 }
@@ -402,6 +419,11 @@ void recibir(int socket, char* buffer, int tamanio_buffer, char* mensaje_error){
   */
 
   if(result_recv <= 0){
+
+	if (buffer){
+		free(buffer);
+	}
+
 	perror("Fallo el recv");
   	close(socket);
   	loggearErrorYSalir(mensaje_error);
