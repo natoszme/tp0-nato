@@ -1,0 +1,281 @@
+[INFO] 16:03:23:469 tp0/(5453:5453): Conectado!
+[INFO] 16:03:23:469 tp0/(5453:5453): Vamos a probar recibir
+[INFO] 16:03:24:150 tp0/(5453:5453): Handshake OK!
+[INFO] 16:03:24:151 tp0/(5453:5453): Recibimos
+[INFO] 16:03:31:852 tp0/(5453:5453): Enviando info de Estudiante
+[INFO] 16:03:31:853 tp0/(5453:5453): Se enviaron los datos del estudiante
+[INFO] 16:03:31:856 tp0/(5453:5453): Esperando el encabezado del contenido(8 bytes)
+[INFO] 16:03:32:36 tp0/(5453:5453): Esperando el contenido (26 bytes)
+[INFO] 16:03:32:38 tp0/(5453:5453): Los MD5 concidieron!
+[INFO] 16:22:03:730 tp0/(5816:5816): Conectado!
+[INFO] 16:22:03:905 tp0/(5816:5816): Handshake OK!
+[INFO] 16:22:03:906 tp0/(5816:5816): Recibimos
+[INFO] 16:22:13:352 tp0/(5816:5816): Enviando info de Estudiante
+[INFO] 16:22:13:360 tp0/(5816:5816): Se enviaron los datos del estudiante
+[INFO] 16:22:13:360 tp0/(5816:5816): Esperando el encabezado del contenido(8 bytes)
+[INFO] 16:22:13:547 tp0/(5816:5816): Esperando el contenido (26 bytes)
+[INFO] 16:22:13:551 tp0/(5816:5816): Los MD5 concidieron!
+[INFO] 16:23:14:468 tp0/(5876:5876): Conectado!
+[INFO] 16:23:14:647 tp0/(5876:5876): Handshake OK!
+[INFO] 16:23:14:648 tp0/(5876:5876): Recibimos
+[INFO] 16:23:19:182 tp0/(5876:5876): Enviando info de Estudiante
+[INFO] 16:23:19:186 tp0/(5876:5876): Se enviaron los datos del estudiante
+[INFO] 16:23:19:187 tp0/(5876:5876): Esperando el encabezado del contenido(8 bytes)
+[INFO] 16:23:19:367 tp0/(5876:5876): Esperando el contenido (26 bytes)
+[INFO] 16:23:19:375 tp0/(5876:5876): Los MD5 concidieron!
+[INFO] 16:31:27:910 tp0/(6039:6039): Conectado!
+[INFO] 16:31:28:90 tp0/(6039:6039): Handshake OK!
+[INFO] 16:31:28:90 tp0/(6039:6039): Recibimos
+[INFO] 16:31:34:208 tp0/(6039:6039): Enviando info de Estudiante
+[INFO] 16:31:34:210 tp0/(6039:6039): Se enviaron los datos del estudiante
+[INFO] 16:31:34:211 tp0/(6039:6039): Esperando el encabezado del contenido(8 bytes)
+[INFO] 16:31:34:388 tp0/(6039:6039): Esperando el contenido (26 bytes)
+[INFO] 16:31:34:389 tp0/(6039:6039): Los MD5 concidieron!
+[INFO] 16:32:33:1 tp0/(6090:6090): Conectado!
+[INFO] 16:32:34:180 tp0/(6090:6090): Handshake OK!
+[INFO] 16:32:34:181 tp0/(6090:6090): Recibimos
+[INFO] 16:32:37:539 tp0/(6090:6090): Enviando info de Estudiante
+[INFO] 16:32:37:540 tp0/(6090:6090): Se enviaron los datos del estudiante
+[INFO] 16:32:37:540 tp0/(6090:6090): Esperando el encabezado del contenido(8 bytes)
+[INFO] 16:32:37:718 tp0/(6090:6090): Esperando el contenido (26 bytes)
+[INFO] 16:32:37:719 tp0/(6090:6090): Los MD5 concidieron!
+[INFO] 16:35:27:859 tp0/(6181:6181): Conectado!
+[INFO] 16:35:27:952 tp0/(6181:6181): Recibimos mensaje de handshake
+[INFO] 16:35:27:953 tp0/(6181:6181): Handshake OK!
+[INFO] 16:35:34:59 tp0/(6181:6181): Enviando info de Estudiante
+[INFO] 16:35:34:60 tp0/(6181:6181): Se enviaron los datos del estudiante
+[INFO] 16:35:34:61 tp0/(6181:6181): Esperando el encabezado del contenido(8 bytes)
+[INFO] 16:35:34:239 tp0/(6181:6181): Esperando el contenido (26 bytes)
+[INFO] 16:35:34:241 tp0/(6181:6181): Los MD5 concidieron!
+[INFO] 16:55:07:422 tp0/(6560:6560): Conectado!
+[INFO] 16:55:07:573 tp0/(6560:6560): Recibimos mensaje de handshake
+[INFO] 16:55:07:573 tp0/(6560:6560): Handshake OK!
+[INFO] 16:55:13:101 tp0/(6560:6560): Enviando info de Estudiante
+[INFO] 16:55:13:106 tp0/(6560:6560): Se enviaron los datos del estudiante
+[INFO] 16:55:13:109 tp0/(6560:6560): Esperando el encabezado del contenido(8 bytes)
+[INFO] 16:55:13:282 tp0/(6560:6560): Esperando el contenido (26 bytes)
+[INFO] 16:57:06:479 tp0/(6614:6614): Conectado!
+[INFO] 16:57:06:665 tp0/(6614:6614): Recibimos mensaje de handshake
+[INFO] 16:57:06:666 tp0/(6614:6614): Handshake OK!
+[INFO] 16:57:15:538 tp0/(6614:6614): Enviando info de Estudiante
+[INFO] 16:57:15:540 tp0/(6614:6614): Se enviaron los datos del estudiante
+[INFO] 16:57:15:541 tp0/(6614:6614): Esperando el encabezado del contenido(8 bytes)
+[INFO] 16:57:15:725 tp0/(6614:6614): Esperando el contenido (26 bytes)
+[INFO] 16:58:05:939 tp0/(6670:6670): Conectado!
+[INFO] 16:58:06:116 tp0/(6670:6670): Recibimos mensaje de handshake
+[INFO] 16:58:06:117 tp0/(6670:6670): Handshake OK!
+[INFO] 16:58:13:565 tp0/(6670:6670): Enviando info de Estudiante
+[INFO] 16:58:13:566 tp0/(6670:6670): Se enviaron los datos del estudiante
+[INFO] 16:58:13:567 tp0/(6670:6670): Esperando el encabezado del contenido(8 bytes)
+[INFO] 16:58:13:771 tp0/(6670:6670): Esperando el contenido (26 bytes)
+[INFO] 23:42:57:209 tp0/(9259:9259): Conectado!
+[INFO] 23:42:57:403 tp0/(9259:9259): Recibimos mensaje de handshake
+[INFO] 23:42:57:404 tp0/(9259:9259): Handshake OK!
+[INFO] 23:43:03:683 tp0/(9259:9259): Enviando info de Estudiante
+[INFO] 23:43:03:684 tp0/(9259:9259): Se enviaron los datos del estudiante
+[INFO] 23:43:03:685 tp0/(9259:9259): Esperando el encabezado del contenido(8 bytes)
+[INFO] 23:43:03:869 tp0/(9259:9259): Esperando el contenido (26 bytes)
+[INFO] 23:43:03:870 tp0/(9259:9259): Se recibio el mensaje de tamanio variable
+[INFO] 23:43:03:871 tp0/(9259:9259): Se envio el MD5
+[INFO] 23:44:56:520 tp0/(9319:9319): Conectado!
+[INFO] 23:44:56:714 tp0/(9319:9319): Recibimos mensaje de handshake
+[INFO] 23:44:56:715 tp0/(9319:9319): Handshake OK!
+[INFO] 23:45:02:108 tp0/(9319:9319): Enviando info de Estudiante
+[INFO] 23:45:02:110 tp0/(9319:9319): Se enviaron los datos del estudiante
+[INFO] 23:45:02:111 tp0/(9319:9319): Esperando el encabezado del contenido(8 bytes)
+[INFO] 23:45:02:306 tp0/(9319:9319): Esperando el contenido (26 bytes)
+[INFO] 23:45:02:307 tp0/(9319:9319): Se recibio el mensaje de tamanio variable
+[INFO] 23:45:02:308 tp0/(9319:9319): Se envio el MD5
+[INFO] 23:46:26:233 tp0/(9383:9383): Conectado!
+[INFO] 23:46:26:350 tp0/(9383:9383): Recibimos mensaje de handshake
+[INFO] 23:46:26:351 tp0/(9383:9383): Handshake OK!
+[INFO] 23:46:31:776 tp0/(9383:9383): Enviando info de Estudiante
+[INFO] 23:46:31:777 tp0/(9383:9383): Se enviaron los datos del estudiante
+[INFO] 23:46:31:789 tp0/(9383:9383): Esperando el encabezado del contenido(8 bytes)
+[INFO] 23:46:31:962 tp0/(9383:9383): Esperando el contenido (26 bytes)
+[INFO] 23:46:31:963 tp0/(9383:9383): Se recibio el mensaje de tamanio variable
+[INFO] 23:46:31:964 tp0/(9383:9383): Se envio el MD5
+[INFO] 23:49:08:933 tp0/(9496:9496): Conectado!
+[INFO] 23:49:09:116 tp0/(9496:9496): Recibimos mensaje de handshake
+[INFO] 23:49:09:118 tp0/(9496:9496): Handshake OK!
+[INFO] 23:49:17:121 tp0/(9496:9496): Enviando info de Estudiante
+[INFO] 23:49:17:122 tp0/(9496:9496): Se enviaron los datos del estudiante
+[INFO] 23:49:17:123 tp0/(9496:9496): Esperando el encabezado del contenido(8 bytes)
+[INFO] 23:49:17:311 tp0/(9496:9496): Esperando el contenido (26 bytes)
+[INFO] 23:49:17:312 tp0/(9496:9496): Se recibio el mensaje de tamanio variable
+[INFO] 23:49:17:313 tp0/(9496:9496): Se envio el MD5
+[INFO] 23:49:52:502 tp0/(9532:9532): Conectado!
+[INFO] 23:49:52:682 tp0/(9532:9532): Recibimos mensaje de handshake
+[INFO] 23:49:52:686 tp0/(9532:9532): Handshake OK!
+[INFO] 23:50:06:170 tp0/(9532:9532): Enviando info de Estudiante
+[INFO] 23:50:06:171 tp0/(9532:9532): Se enviaron los datos del estudiante
+[INFO] 23:50:06:172 tp0/(9532:9532): Esperando el encabezado del contenido(8 bytes)
+[INFO] 23:50:06:365 tp0/(9532:9532): Esperando el contenido (26 bytes)
+[INFO] 23:50:06:366 tp0/(9532:9532): Se recibio el mensaje de tamanio variable
+[INFO] 23:50:06:367 tp0/(9532:9532): Se envio el MD5
+[INFO] 23:54:59:282 tp0/(9603:9603): Conectado!
+[INFO] 23:54:59:378 tp0/(9603:9603): Recibimos mensaje de handshake
+[INFO] 23:54:59:379 tp0/(9603:9603): Handshake OK!
+[INFO] 23:55:02:912 tp0/(9603:9603): Enviando info de Estudiante
+[INFO] 23:55:02:915 tp0/(9603:9603): Se enviaron los datos del estudiante
+[INFO] 23:55:02:916 tp0/(9603:9603): Esperando el encabezado del contenido(8 bytes)
+[INFO] 23:55:03:96 tp0/(9603:9603): Esperando el contenido (26 bytes)
+[INFO] 23:55:03:99 tp0/(9603:9603): Se recibio el mensaje de tamanio variable
+[INFO] 23:55:03:100 tp0/(9603:9603): Se envio el MD5
+[INFO] 13:33:59:336 tp0/(3218:3218): Conectado!
+[INFO] 13:33:59:514 tp0/(3218:3218): Recibimos mensaje de handshake
+[INFO] 13:33:59:515 tp0/(3218:3218): Handshake OK!
+[INFO] 13:34:05:602 tp0/(3218:3218): Enviando info de Estudiante
+[INFO] 13:34:05:604 tp0/(3218:3218): Se enviaron los datos del estudiante
+[INFO] 13:34:05:609 tp0/(3218:3218): Esperando el encabezado del contenido(8 bytes)
+[INFO] 13:34:05:784 tp0/(3218:3218): Esperando el contenido (26 bytes)
+[INFO] 13:34:05:786 tp0/(3218:3218): Se recibio el mensaje de tamanio variable
+[INFO] 13:34:05:794 tp0/(3218:3218): Se envio el MD5
+[INFO] 13:37:58:821 tp0/(4054:4054): Conectado!
+[INFO] 13:37:58:973 tp0/(4054:4054): Recibimos mensaje de handshake
+[INFO] 13:37:58:991 tp0/(4054:4054): Handshake OK!
+[INFO] 13:38:04:982 tp0/(4054:4054): Enviando info de Estudiante
+[INFO] 13:38:04:3 tp0/(4054:4054): Se enviaron los datos del estudiante
+[INFO] 13:38:05:9 tp0/(4054:4054): Esperando el encabezado del contenido(8 bytes)
+[INFO] 13:38:05:182 tp0/(4054:4054): Esperando el contenido (26 bytes)
+[INFO] 13:38:05:187 tp0/(4054:4054): Se recibio el mensaje de tamanio variable
+[INFO] 13:38:05:311 tp0/(4054:4054): Se envio el MD5
+[INFO] 14:07:21:931 tp0/(4437:4437): Conectado!
+[INFO] 14:07:22:94 tp0/(4437:4437): Recibimos mensaje de handshake
+[INFO] 14:07:22:95 tp0/(4437:4437): Handshake OK!
+[INFO] 14:07:28:797 tp0/(4437:4437): Enviando info de Estudiante
+[INFO] 14:07:28:799 tp0/(4437:4437): Se enviaron los datos del estudiante
+[INFO] 14:07:28:800 tp0/(4437:4437): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:07:28:978 tp0/(4437:4437): Esperando el contenido (26 bytes)
+[INFO] 14:07:28:984 tp0/(4437:4437): Se recibio el mensaje de tamanio variable
+[INFO] 14:07:28:996 tp0/(4437:4437): Se envio el MD5
+[INFO] 14:11:34:244 tp0/(4513:4513): Conectado!
+[INFO] 14:11:34:425 tp0/(4513:4513): Recibimos mensaje de handshake
+[INFO] 14:11:34:436 tp0/(4513:4513): Handshake OK!
+[INFO] 14:11:38:992 tp0/(4513:4513): Enviando info de Estudiante
+[INFO] 14:11:38:993 tp0/(4513:4513): Se enviaron los datos del estudiante
+[INFO] 14:11:38:994 tp0/(4513:4513): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:11:39:174 tp0/(4513:4513): Esperando el contenido (26 bytes)
+[INFO] 14:11:39:175 tp0/(4513:4513): Se recibio el mensaje de tamanio variable
+[INFO] 14:11:39:181 tp0/(4513:4513): Se envio el MD5
+[INFO] 14:11:39:360 tp0/(4513:4513): Los MD5 concidieron!
+[INFO] 14:13:55:718 tp0/(4531:4531): Conectado!
+[INFO] 14:13:55:892 tp0/(4531:4531): Recibimos mensaje de handshake
+[INFO] 14:13:55:921 tp0/(4531:4531): Handshake OK!
+[INFO] 14:14:00:562 tp0/(4531:4531): Enviando info de Estudiante
+[INFO] 14:14:00:580 tp0/(4531:4531): Se enviaron los datos del estudiante
+[INFO] 14:14:00:584 tp0/(4531:4531): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:14:00:760 tp0/(4531:4531): Esperando el contenido (26 bytes)
+[INFO] 14:14:00:765 tp0/(4531:4531): Se recibio el mensaje de tamanio variable
+[INFO] 14:14:00:850 tp0/(4531:4531): Se envio el MD5
+[INFO] 14:14:01:49 tp0/(4531:4531): Los MD5 concidieron!
+[INFO] 14:15:34:326 tp0/(4536:4536): Conectado!
+[INFO] 14:15:34:429 tp0/(4536:4536): Recibimos mensaje de handshake
+[INFO] 14:15:34:436 tp0/(4536:4536): Handshake OK!
+[INFO] 14:15:38:126 tp0/(4536:4536): Enviando info de Estudiante
+[INFO] 14:15:38:145 tp0/(4536:4536): Se enviaron los datos del estudiante
+[INFO] 14:15:38:158 tp0/(4536:4536): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:15:38:331 tp0/(4536:4536): Esperando el contenido (26 bytes)
+[INFO] 14:15:38:335 tp0/(4536:4536): Se recibio el mensaje de tamanio variable
+[INFO] 14:15:38:425 tp0/(4536:4536): Se envio el MD5
+[INFO] 14:15:38:606 tp0/(4536:4536): Los MD5 concidieron!
+[INFO] 14:15:56:493 tp0/(4537:4537): Conectado!
+[INFO] 14:15:56:638 tp0/(4537:4537): Recibimos mensaje de handshake
+[INFO] 14:15:56:660 tp0/(4537:4537): Handshake OK!
+[INFO] 14:15:59:314 tp0/(4537:4537): Enviando info de Estudiante
+[INFO] 14:15:59:332 tp0/(4537:4537): Se enviaron los datos del estudiante
+[INFO] 14:15:59:343 tp0/(4537:4537): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:15:59:512 tp0/(4537:4537): Esperando el contenido (26 bytes)
+[INFO] 14:15:59:518 tp0/(4537:4537): Se recibio el mensaje de tamanio variable
+[INFO] 14:15:59:603 tp0/(4537:4537): Se envio el MD5
+[INFO] 14:15:59:783 tp0/(4537:4537): Los MD5 concidieron!
+[INFO] 14:16:20:176 tp0/(4540:4540): Conectado!
+[INFO] 14:16:21:245 tp0/(4540:4540): Recibimos mensaje de handshake
+[INFO] 14:16:21:252 tp0/(4540:4540): Handshake OK!
+[INFO] 14:16:26:361 tp0/(4540:4540): Enviando info de Estudiante
+[INFO] 14:16:26:381 tp0/(4540:4540): Se enviaron los datos del estudiante
+[INFO] 14:16:26:386 tp0/(4540:4540): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:16:27:422 tp0/(4540:4540): Esperando el contenido (26 bytes)
+[INFO] 14:16:27:426 tp0/(4540:4540): Se recibio el mensaje de tamanio variable
+[INFO] 14:16:27:589 tp0/(4540:4540): Se envio el MD5
+[INFO] 14:16:27:767 tp0/(4540:4540): Los MD5 concidieron!
+[INFO] 14:28:39:662 tp0/(5062:5062): Conectado!
+[INFO] 14:28:39:842 tp0/(5062:5062): Recibimos mensaje de handshake
+[INFO] 14:28:39:842 tp0/(5062:5062): Handshake OK!
+[INFO] 14:28:44:450 tp0/(5062:5062): Enviando info de Estudiante
+[INFO] 14:28:44:451 tp0/(5062:5062): Se enviaron los datos del estudiante
+[INFO] 14:28:44:452 tp0/(5062:5062): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:28:44:646 tp0/(5062:5062): Esperando el contenido (26 bytes)
+[INFO] 14:28:44:647 tp0/(5062:5062): Se recibio el mensaje de tamanio variable
+[INFO] 14:28:44:658 tp0/(5062:5062): Se envio el MD5
+[ERROR] 14:28:44:839 tp0/(5062:5062): Los MD5 no coincidieron
+[INFO] 14:34:33:999 tp0/(5128:5128): Conectado!
+[INFO] 14:34:34:141 tp0/(5128:5128): Recibimos mensaje de handshake
+[INFO] 14:34:34:163 tp0/(5128:5128): Handshake OK!
+[INFO] 14:34:38:396 tp0/(5128:5128): Enviando info de Estudiante
+[INFO] 14:34:38:406 tp0/(5128:5128): Se enviaron los datos del estudiante
+[INFO] 14:34:38:421 tp0/(5128:5128): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:34:38:582 tp0/(5128:5128): Esperando el contenido (26 bytes)
+[INFO] 14:34:38:587 tp0/(5128:5128): Se recibio el mensaje de tamanio variable
+[INFO] 14:34:38:668 tp0/(5128:5128): Se envio el MD5
+[ERROR] 14:34:38:852 tp0/(5128:5128): Los MD5 no coincidieron
+[INFO] 14:38:02:364 tp0/(5140:5140): Conectado!
+[INFO] 14:38:02:516 tp0/(5140:5140): Recibimos mensaje de handshake
+[INFO] 14:38:02:551 tp0/(5140:5140): Handshake OK!
+[INFO] 14:38:07:905 tp0/(5140:5140): Enviando info de Estudiante
+[INFO] 14:38:07:913 tp0/(5140:5140): Se enviaron los datos del estudiante
+[INFO] 14:38:07:917 tp0/(5140:5140): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:38:08:90 tp0/(5140:5140): Esperando el contenido (26 bytes)
+[INFO] 14:38:08:95 tp0/(5140:5140): Se recibio el mensaje de tamanio variable
+[INFO] 14:38:08:178 tp0/(5140:5140): Se envio el MD5
+[ERROR] 14:38:08:369 tp0/(5140:5140): Los MD5 no coincidieron
+[INFO] 14:38:28:407 tp0/(5143:5143): Conectado!
+[INFO] 14:38:28:554 tp0/(5143:5143): Recibimos mensaje de handshake
+[INFO] 14:38:28:583 tp0/(5143:5143): Handshake OK!
+[INFO] 14:38:35:154 tp0/(5143:5143): Enviando info de Estudiante
+[INFO] 14:38:35:171 tp0/(5143:5143): Se enviaron los datos del estudiante
+[INFO] 14:38:35:179 tp0/(5143:5143): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:38:35:342 tp0/(5143:5143): Esperando el contenido (26 bytes)
+[INFO] 14:38:35:348 tp0/(5143:5143): Se recibio el mensaje de tamanio variable
+[INFO] 14:38:35:430 tp0/(5143:5143): Se envio el MD5
+[ERROR] 14:38:35:616 tp0/(5143:5143): Los MD5 no coincidieron
+[INFO] 14:38:43:555 tp0/(5144:5144): Conectado!
+[INFO] 14:38:43:734 tp0/(5144:5144): Recibimos mensaje de handshake
+[INFO] 14:38:43:734 tp0/(5144:5144): Handshake OK!
+[INFO] 14:38:50:132 tp0/(5144:5144): Enviando info de Estudiante
+[INFO] 14:38:50:134 tp0/(5144:5144): Se enviaron los datos del estudiante
+[INFO] 14:38:50:135 tp0/(5144:5144): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:38:50:313 tp0/(5144:5144): Esperando el contenido (26 bytes)
+[INFO] 14:38:50:313 tp0/(5144:5144): Se recibio el mensaje de tamanio variable
+[INFO] 14:38:50:314 tp0/(5144:5144): Se envio el MD5
+[ERROR] 14:38:52:385 tp0/(5144:5144): Los MD5 no coincidieron
+[INFO] 14:39:31:599 tp0/(5170:5170): Conectado!
+[INFO] 14:39:31:777 tp0/(5170:5170): Recibimos mensaje de handshake
+[INFO] 14:39:31:777 tp0/(5170:5170): Handshake OK!
+[INFO] 14:39:34:129 tp0/(5170:5170): Enviando info de Estudiante
+[INFO] 14:39:34:130 tp0/(5170:5170): Se enviaron los datos del estudiante
+[INFO] 14:39:34:130 tp0/(5170:5170): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:39:34:317 tp0/(5170:5170): Esperando el contenido (26 bytes)
+[INFO] 14:39:34:318 tp0/(5170:5170): Se recibio el mensaje de tamanio variable
+[INFO] 14:39:34:318 tp0/(5170:5170): Se envio el MD5
+[INFO] 14:39:34:499 tp0/(5170:5170): Los MD5 concidieron!
+[INFO] 14:39:37:99 tp0/(5171:5171): Conectado!
+[INFO] 14:39:37:277 tp0/(5171:5171): Recibimos mensaje de handshake
+[INFO] 14:39:37:277 tp0/(5171:5171): Handshake OK!
+[INFO] 14:39:41:138 tp0/(5171:5171): Enviando info de Estudiante
+[INFO] 14:39:41:138 tp0/(5171:5171): Se enviaron los datos del estudiante
+[INFO] 14:39:41:139 tp0/(5171:5171): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:39:41:318 tp0/(5171:5171): Esperando el contenido (26 bytes)
+[INFO] 14:39:41:318 tp0/(5171:5171): Se recibio el mensaje de tamanio variable
+[INFO] 14:39:41:319 tp0/(5171:5171): Se envio el MD5
+[INFO] 14:39:41:497 tp0/(5171:5171): Los MD5 concidieron!
+[INFO] 14:33:33:287 tp0/(9451:9451): Conectado!
+[INFO] 14:33:33:399 tp0/(9451:9451): Recibimos mensaje de handshake
+[INFO] 14:33:33:404 tp0/(9451:9451): Handshake OK!
+[INFO] 14:33:42:615 tp0/(9451:9451): Enviando info de Estudiante
+[INFO] 14:33:42:616 tp0/(9451:9451): Se enviaron los datos del estudiante
+[INFO] 14:33:42:617 tp0/(9451:9451): Esperando el encabezado del contenido(8 bytes)
+[INFO] 14:33:42:795 tp0/(9451:9451): Esperando el contenido (26 bytes)
+[INFO] 14:33:42:796 tp0/(9451:9451): Se recibio el mensaje de tamanio variable
+[INFO] 14:33:42:797 tp0/(9451:9451): Se envio el MD5
+[INFO] 14:33:42:977 tp0/(9451:9451): Los MD5 concidieron!

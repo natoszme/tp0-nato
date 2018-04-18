@@ -252,9 +252,7 @@ void * wait_content(int socket) {
   // 13.2. Recibamos el header en la estructura y chequiemos si el id es el correcto.
   //      No se olviden de validar los errores, liberando memoria y cerrando el socket!
 
-  //chequear el tercer parametro, el sizeof
   //mensaje_error un poco mas expresivo?
-  //ojo que no se libera la memoria de header en caso de fallar el recibir!
   recibir(socket, header, sizeof(ContentHeader), "No se pudo recibir el header en wait_content()");
 
   //revisar el nombre de la constante, abajo se usa otra!
@@ -274,11 +272,10 @@ void * wait_content(int socket) {
 	  14.2. Recibimos el contenido en un buffer (si hubo error, fallamos, liberamos y salimos
   */
 
-  void* content = malloc(header->len);
+  void* content = calloc(header->len + 1, sizeof(char));
   //ojo que aca tampoco se liberan las cosas, si rompe recibir
   recibir(socket, content, header->len, "No se pudo recibir el contenido en wait_content()");
-  //para que los md5 coincidan!
-  //content[(header->len) - 1] = '\0';
+
   /*
 	  15.   Finalmente, no te olvides de liberar la memoria que pedimos
 			para el header y retornar el contenido recibido.
@@ -340,7 +337,7 @@ void send_md5(int socket, void * content) {
 		  anterior y el digest del MD5. Obviamente, validando tambien los errores.
   */
 
-  int resultado = send(socket, buffer, sizeof(MD5_Final), 0);
+  int resultado = send(socket, buffer, message_size, 0);
   //hay que preguntar por == -1, o con esto alcanza?
   if(resultado < 0){
   	
